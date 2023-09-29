@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: rgb(42, 42, 42);
+    background: rgb(56, 56, 56);
     color: rgb(255, 255, 255);
 }
 #header{
@@ -42,7 +42,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: red;
+    background:#ff004f;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -60,7 +60,7 @@ nav ul li a:hover::after{
     margin-top: 20px;
 }
 .header-text h1 span{
-    color: red;
+    color: #ff004f;
 }
 /*------------------about--------------------*/
 #about{
@@ -102,7 +102,7 @@ nav ul li a:hover::after{
     content: '';
     width: 0;
     height: 3px;
-    background: red;
+    background:#ff004f;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -116,7 +116,7 @@ nav ul li a:hover::after{
     margin: 10px 0;
 }
 .tab-contents ul li span{
-    color: red;
+    color: #ff004f;
     font-size: 14px;
 }
 .tab-contents{
